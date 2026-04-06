@@ -36,12 +36,12 @@ export default function Navbar() {
         </div>
 
         {/* Center Logo */}
-        <div className="md:absolute md:left-1/2 md:-translate-x-1/2 flex justify-center z-50">
+        <div className="absolute left-1/2 -translate-x-1/2 flex justify-center z-50">
           <a href="#hero">
             <img 
               src={logo} 
               alt="Logo Pão Selvagem & Kombucha Om" 
-              className={`transition-all duration-700 object-contain drop-shadow-[0_15px_30px_rgba(0,0,0,0.2)] ${isScrolled ? 'h-32 w-32 translate-y-0' : 'h-64 w-64 md:h-80 md:w-80 translate-y-8 md:translate-y-12'}`}
+              className={`transition-all duration-700 object-contain drop-shadow-[0_15px_30px_rgba(0,0,0,0.2)] ${isScrolled ? 'h-32 w-32 translate-y-0' : 'h-72 w-72 md:h-80 md:w-80 translate-y-4 md:translate-y-12'}`}
             />
           </a>
         </div>

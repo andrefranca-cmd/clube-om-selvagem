@@ -6,7 +6,7 @@ import logoPao from '../../assets/logo-pao-selvagem.jpg';
 
 export default function Hero() {
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 pb-12">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-80 md:pt-20 pb-12">
       {/* Background Elements */}
       <div className="absolute inset-0 bg-bg-cream -z-20"></div>
       
