@@ -6,7 +6,7 @@ import logoPao from '../../assets/logo-pao-selvagem.jpg';
 
 export default function Hero() {
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-[60vh] md:pt-20 pb-12">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-[60vh] md:pt-32 pb-12">
       {/* Background Elements */}
       <div className="absolute inset-0 bg-bg-cream -z-20"></div>
       
@@ -28,7 +28,7 @@ export default function Hero() {
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
-          className="flex flex-col gap-6"
+          className="flex flex-col gap-6 md:pr-20"
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-om-green/20 text-om-green/80 text-sm font-medium w-max"
 >
