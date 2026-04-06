@@ -51,10 +51,10 @@ export default function CTA() {
         <div className="flex flex-col items-center justify-center gap-4">
           <p className="text-sm">Acompanhe nosso trabalho</p>
           <div className="flex gap-4">
-             <a href="https://instagram.com/taokombucha" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-accent-gold transition-colors">
-               <span className="text-sm font-bold">@</span> <span className="text-sm">@taokombucha</span>
+             <a href="https://www.instagram.com/kombuchaomoficial/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-accent-gold transition-colors">
+               <span className="text-sm font-bold">@</span> <span className="text-sm">@kombuchaomoficial</span>
              </a>
-             <a href="https://instagram.com/padariapaoselvagem" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-accent-gold transition-colors">
+             <a href="https://www.instagram.com/padariapaoselvagem/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-accent-gold transition-colors">
                <span className="text-sm font-bold">@</span> <span className="text-sm">@padariapaoselvagem</span>
              </a>
           </div>
